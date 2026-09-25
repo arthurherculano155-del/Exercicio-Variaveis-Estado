@@ -10,7 +10,7 @@ export default function CounterState() {
         if(contador >= 10){
             setContador(contador => contador - 1)
 
-            alert("O contador nãopode ser maior que 10.")
+            alert("O contador não pode ser maior que 10.")
         }
     }
 
@@ -20,7 +20,7 @@ export default function CounterState() {
         if(contador <= 0){
             setContador(contador => contador + 1)
 
-            alert("O número não pode ser menor que 0.")
+            alert("O contador não pode ser menor que 0.")
         }
     }
 
